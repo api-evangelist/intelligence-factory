@@ -1,8 +1,27 @@
 aid: intelligence-factory
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intelligence-factory.png
 name: Intelligence Factory
-description: Intelligence Factory is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Intelligence Factory is a San Francisco robotics and embodied-AI startup (Y Combinator
+  Spring 2026) building general-purpose foundation models for robotic manipulation. Its stated mission
+  is "Human Intelligence for Robots" — deploying bots with human-level dexterity and reasoning in the
+  real world. The team trains models on human demonstration data captured through custom gloves that
+  record what a person sees, does, and feels, retargets that human motion onto robot motion, and deploys
+  the resulting models across robot platforms from dexterous hands to grippers, with early focus on
+  warehouses, grocery stores, and data centers. The company was founded by Yash Sinha (CEO) and Jalaj
+  Shukla (CTO), with a team drawn from ETH Zurich, University of Pennsylvania, Harvard, NVIDIA, Formula 1,
+  and Ansys. As of this profile it publishes no public API, SDK, developer documentation, or GitHub
+  organization — it is an early-stage lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/intelligence-factory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,38 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: Spring 2026
+x-location: San Francisco, CA
+x-founders:
+- Yash Sinha (CEO)
+- Jalaj Shukla (CTO)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Robotics
+- Embodied AI
+- Foundation Models
+- Robotic Manipulation
+- Artificial Intelligence
+- Machine Learning
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://intelligence-factory.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/intelligence-factory/
+- type: Whitepaper
+  url: https://drive.google.com/file/d/1TrU7RXPk1Obk6SaqioFraaBpZaHSDPOt/view?usp=sharing
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
