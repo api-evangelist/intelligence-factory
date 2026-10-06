@@ -47,7 +47,7 @@ x-founders:
 - Jalaj Shukla (CTO)
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Robotics
@@ -69,6 +69,8 @@ tags_raw:
 - Machine-Learning
 apis: []
 common:
+- url: https://www.intelligence-factory.com/blog
+  type: Blog
 - type: Website
   url: https://intelligence-factory.com
 - type: LinkedIn
